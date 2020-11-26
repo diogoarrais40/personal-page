@@ -1,0 +1,19 @@
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+
+$primary-color: #fed136;
+$light-main-color: #212529;
+$dark-main-color: #d2d3d4;
+
+$font-primary: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-secondary: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+@mixin fontFace($fontFamily, $fontWeight, $fontPath) {
+  @font-face {
+    font-family: $fontFamily;
+    font-weight: $fontWeight;
+    src: url('/fonts/#{$fontPath}?$modena=vue-personal-page');
+  }
+}
