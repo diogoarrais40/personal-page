@@ -22,3 +22,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### git repository to follow with good example of implementation
+
+```
+https://github.com/capelski/vue-personal-page/blob/master/src/scss/globals.scss
+```
